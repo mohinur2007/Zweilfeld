@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(p.jpg);
+    background-size: cover;
+}
+#navbar {
+    background-color: rgba(136, 6, 176, 0.534);
+    color: white;
+    overflow: auto;
+}
+#navbar a {
+    color: black ;
+}
+#navbar h1 {
+    float:  left;
+    padding-top: 37px;
+    margin-left: 100px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: flex;
+    padding: 35px;
+    margin-right: 15px;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    color: white;
+}
+Hr {
+    margin: 0px;
+    color: gray;
+}
+#showcase {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+#showcase .showcase-content {
+    text-align: left;
+    color: white;
+    padding-top: 170px;
+    margin-left: 50px;
+}
+#showcase h1 {
+    font-size: 15px;
+}
+#showcase p {
+    padding: 0px;
+    margin: 56px;
+
+}
+p{
+    color: rgb(16, 2, 2);
+    padding: 78px;
+    margin: 56px;
+    font-size: 35px;
+}
